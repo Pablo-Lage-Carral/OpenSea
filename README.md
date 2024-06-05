@@ -54,8 +54,24 @@ A solução proposta pelo projeto "Mar Aberto" envolve várias etapas interconec
   3.1.ls > cd \OpenSea\
 
   
-4. dotnet run
+4.Rode a aplicação
+
+  4.1.dotnet run
 
 **Baixando o arquivo pela URL**
 
-1.Copie a URL ()
+
+1.Copie a URL (https://github.com/Pablo-Lage-Carral/OpenSea.git)
+
+
+
+2.Depois clone a aplicação
+
+2.1.git clone https://github.com/Pablo-Lage-Carral/OpenSea.git
+
+
+3.Rode a aplicação
+
+  3.1.dotnet run
+
+
