@@ -42,13 +42,20 @@ A solução proposta pelo projeto "Mar Aberto" envolve várias etapas interconec
 
 **Baixando o arquivo .zip**
 
+
 1.Extraia o arquivo.zip (OpenSea)
+
 
 2.Abra o terminal
 
+
 3.Navegue até o diretório OpenSea
+
   3.1.ls > cd \OpenSea\
+
   
 4. dotnet run
 
-**
+**Baixando o arquivo pela URL**
+
+1.Copie a URL ()
