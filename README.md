@@ -22,22 +22,29 @@ Os principais objetivos do projeto "Mar Aberto" são:
 
 A solução proposta pelo projeto "Mar Aberto" envolve várias etapas interconectadas:
 
-### Instalação de Sensores
+## Requisitos para rodar o código
 
-Sensores de alta precisão serão instalados em locais estratégicos ao redor do mundo, permitindo a coleta contínua de dados sobre diversos parâmetros da qualidade da água, como temperatura, salinidade, pH e níveis de contaminantes.
+- **.NET SDK**
+- **Banco de Dados: SQL Server**
+- **Visual Studio Code: Com as extensões C# e .NET instaladas.**
+  
 
-### Plataforma Centralizada
+## Dependências dentro do código
 
-Uma plataforma digital será desenvolvida para centralizar todos os dados coletados. Essa plataforma não só armazenará os dados, mas também os organizará e disponibilizará de maneira intuitiva e acessível.
+- **Microsoft.EntityFrameworkCore**
+- **Microsoft.EntityFrameworkCore.SqlServer**
+- **Microsoft.EntityFrameworkCore.Tools**
+- **Swashbuckle.AspNetCore (para Swagger UI)**
+- **Microsoft.AspNetCore.Mvc.NewtonsoftJson (para trabalhar com JSON de maneira mais avançada)**
 
-### Ferramentas de Análise e Visualização
 
-Serão criadas ferramentas que permitam aos usuários analisar os dados de maneira detalhada. Gráficos interativos e mapas de calor, por exemplo, facilitarão a visualização das condições da água em diferentes regiões e períodos.
+## Rodando o código
 
-### Modelos Preditivos
+**Baixando o arquivo .zip**
+1.Extraia o arquivo.zip (OpenSea)
+2.Abra o terminal
+3.Navegue até o diretório OpenSea
+  3.1.ls > cd \OpenSea\
+4. dotnet run
 
-Utilizando técnicas avançadas de análise de dados e inteligência artificial, serão desenvolvidos modelos capazes de projetar tendências futuras, auxiliando na antecipação de problemas e na implementação de medidas preventivas.
-
-### Acesso Aberto e Colaboração
-
-Todos os dados e resultados das análises estarão disponíveis publicamente. A plataforma incentivará a colaboração entre cientistas, pesquisadores, formuladores de políticas e o público em geral, promovendo um esforço coletivo na preservação dos oceanos.
+**
