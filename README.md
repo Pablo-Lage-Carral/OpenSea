@@ -41,6 +41,7 @@ A solução proposta pelo projeto "Mar Aberto" envolve várias etapas interconec
 ## Rodando o código
 
 **Baixando o arquivo .zip**
+
 1.Extraia o arquivo.zip (OpenSea)
 
 2.Abra o terminal
