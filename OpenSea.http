@@ -1,0 +1,6 @@
+@OpenSea_HostAddress = http://localhost:5237
+
+GET {{OpenSea_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
