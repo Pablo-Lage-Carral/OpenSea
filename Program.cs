@@ -1,12 +1,18 @@
 using Microsoft.EntityFrameworkCore;
 using OceanObservationAPI.Data;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+
+var stringConexao = builder.Configuration.GetConnectionString("OracleConnection");
 builder.Services.AddDbContext<OceanDataContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+{
+    options.UseOracle(stringConexao);
+});
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
