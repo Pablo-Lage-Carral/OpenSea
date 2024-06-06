@@ -31,7 +31,7 @@ A solução proposta pelo projeto "Mar Aberto" envolve várias etapas interconec
 
 ## Dependências dentro do código
 
-- **Microsoft.EntityFrameworkCore**
+- **Microsoft.EntityFrameworkCore versão: (8.0.6)**
 - **Microsoft.EntityFrameworkCore.SqlServer**
 - **Microsoft.EntityFrameworkCore.Tools**
 - **Swashbuckle.AspNetCore (para Swagger UI)**
@@ -64,5 +64,15 @@ A solução proposta pelo projeto "Mar Aberto" envolve várias etapas interconec
 5.Após compilado, copie a URL "http://localhost:5237" e jogue no navegador
 
 
+## Endpoints ##
 
+
+**Foi utilizado um único endpoint chamado "OceanObservations" que foi usado para colher os dados retirados da nossa máquina de aprendizagem de previsão
+Os campos criados foram:**
+
+  **"id": 0,
+  "temperature": 0,
+  "salinity": 0,
+  "oxygen": 0,
+  "ph": 0**
 
