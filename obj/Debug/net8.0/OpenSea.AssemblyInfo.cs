@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenSea")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48fba1aa4b42647f5d1bbd879e67c2c4b0d632b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cb7772dfa468821514f3078740ea3da956a47bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenSea")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenSea")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
