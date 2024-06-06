@@ -70,9 +70,13 @@ A solução proposta pelo projeto "Mar Aberto" envolve várias etapas interconec
 **Foi utilizado um único endpoint chamado "OceanObservations" que foi usado para colher os dados retirados da nossa máquina de aprendizagem de previsão
 Os campos criados foram:**
 
-  **"id": 0,
-  "temperature": 0,
-  "salinity": 0,
-  "oxygen": 0,
-  "ph": 0**
+  **"id": 0,**
+  
+  **"temperature": 0,**
+  
+  **"salinity": 0,**
+  
+  **"oxygen": 0,**
+  
+  **"ph": 0**
 
