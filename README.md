@@ -40,23 +40,6 @@ A solução proposta pelo projeto "Mar Aberto" envolve várias etapas interconec
 
 ## Rodando o código
 
-**Baixando o arquivo .zip**
-
-
-1.Extraia o arquivo.zip (OpenSea)
-
-
-2.Abra o terminal
-
-
-3.Navegue até o diretório OpenSea
-
-  3.1.ls > cd \OpenSea\
-
-  
-4.Rode a aplicação
-
-  4.1.dotnet run
 
 **Baixando o arquivo pela URL**
 
@@ -65,13 +48,21 @@ A solução proposta pelo projeto "Mar Aberto" envolve várias etapas interconec
 
 
 
-2.Depois clone a aplicação
+2.Depois clone a aplicação no PowerShell
 
 2.1.git clone https://github.com/Pablo-Lage-Carral/OpenSea.git
 
 
-3.Rode a aplicação
+3.Navegue até o arquivo "OpenSea"
 
-  3.1.dotnet run
+  3.1.ls > cd .\OpenSea\.
+
+
+4.Rode a aplicação com "dotnet run"
+
+
+5.Após compilado, copie a URL "http://localhost:5237" e jogue no navegador
+
+
 
 
